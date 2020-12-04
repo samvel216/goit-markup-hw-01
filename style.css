@@ -1,0 +1,127 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --nav-color: #2196f3;
+  --white-color: #ffffff;
+  --niz-nav: rgba(255, 255, 255, 0.6);
+  --background-name: #2f303a;
+}
+
+body {
+  background: #ffffff;
+  color: var(--primary-text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--nav-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.site-nav2 .nav-rith {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--nav-color);
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.main-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--background-name);
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.feature-list {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.button {
+  background-color: var(--nav-color);
+  color: var(--white-color);
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.nav-rith {
+  color: var(--primary-text-color);
+}
+.nav-rith:hover,
+.nav-rith:focus {
+  color: var(--nav-color);
+}
+.name-team {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.adress {
+  color: var(--white-color);
+}
+.nav-footer {
+  color: var(--niz-nav);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.logo-2 {
+  color: var(--title-text-color);
+}
+.logo .logo-2:hover,
+.logo .logo-2:focus,
+.logo .logo-3:hover,
+.logo .logo-3:focus {
+  color: rgb(204, 51, 24);
+}
+.title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+.professional-name {
+  font-size: 16px;
+  line-height: 1.18;
+}
+.footer {
+  background: var(--background-name);
+}
+.logo-3 {
+  color: var(--white-color);
+}
+.niz-nav .nav-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
