@@ -125,3 +125,7 @@ ul {
   line-height: 1.71;
   text-decoration: none;
 }
+.nav-footer:hover,
+.nav-footer:focus {
+  color: var(--nav-color);
+}
